@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오설록 리디자인</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="header-wrap">
+        <div class="nav-wrap">
+            <div class="nav-box con">
+                <div class="logo-box">
+                    <div class="img-box">
+                        <a href="#"><img id="logo-img" src="./img/header/top-logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="top-box row">
+                    <div class="icon-box cell-r">
+                        <ul class="row">
+                            <div class="cell-r"><input type="text" placeholder="검색어를 입력해주세요."><button><i
+                                        class="fas fa-search"></i></button></div>
+                            <li class="cell-r"><a href="#"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                            <li class="cell-r"><a href="#"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="login-box cell-r">
+                        <ul class="row">
+                            <li class="lang-box cell-r">
+
+                                <a class="view-box row" href="#">
+                                    <p class="cell">한국어</p>
+                                    <i class="fas fa-caret-down cell"></i>
+                                </a>
+
+                                <ul class="inner-box">
+                                    <li><a href="#">영어</a></li>
+                                    <li><a href="#">중국어</a></li>
+                                </ul>
+                            </li>
+                            <li class="cell-r"><a href="#">
+                                    <p>로그인</p>
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="menu-box">
+            <div class="menu-con-box con">
+                <ul class="row">
+                    <li class="cell"><a href="#">티샵</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">티/티푸드</a></li>
+                                <li><a href="#">티웨어</a></li>
+                                <li><a href="#">선물추천</a></li>
+                                <li><a href="#">베스트</a></li>
+                                <li><a href="#">오설록 라운지</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="cell"><a href="#">티라이프</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">상품후기</a></li>
+                                <li><a href="#">선물하기</a></li>
+                                <li><a href="#">다다일상(정기구독)</a></li>
+                                <li><a href="#">맞춤추천</a></li>
+                                <li><a href="#">매장방문기</a></li>
+                                <li><a href="#">차 알아가기</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="cell"><a href="#">이벤트</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">온라인 쇼핑혜택</a></li>
+                                <li><a href="#">인스타그램</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="cell"><a href="#">스토리</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">Since 1979</a></li>
+                                <li><a href="#">오설록 차밭 이야기</a></li>
+                                <li><a href="#">숫자로 보는 오설록</a></li>
+                                <li><a href="#">티하우스 메뉴</a></li>
+                                <li><a href="#">매거진</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="cell"><a href="#">제주 티뮤지엄</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">티스톤 예약</a></li>
+                                <li><a href="#">제주 오설록 맵</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content-header">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="txt-box con">
+                        <div class="tp-txt">
+                            <p>집에서 즐기는 봄 피크닉</p>
+                        </div>
+                        <div class="md-txt">
+                            <p>04.12-04.26</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>10종20%할인+사은품 증정<br>향긋한 티타임으로 봄기운을 느껴보세요.</p>
+                        </div>
+                    </div>
+                    <div class="bgc-box"></div>
+                    <div class="img-box"><img src="./img/header/1.jpg" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="txt-box con">
+                        <div class="tp-txt">
+                            <p>함께해요,잎차 마시기</p>
+                        </div>
+                        <div class="md-txt">
+                            <p>04.05-04.22</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>8가지 종류의 잎차 20%할인<br>4월엔 지구를 위한 잎차 한잔 어때요?</p>
+                        </div>
+                    </div>
+                    <div class="bgc-box"></div>
+                    <div class="img-box"><img src="./img/header/2.jpg" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="txt-box con">
+                        <div class="tp-txt">
+                            <p>4월 출석체크</p>
+                        </div>
+                        <div class="md-txt">
+                            <p>04.01-04.30</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>3일만 출석해도 5천원 할인,<br>최대 30%할인 혜택까지 받아가세요!</p>
+                        </div>
+                    </div>
+                    <div class="bgc-box"></div>
+                    <div class="img-box"><img src="./img/header/3.jpg" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="txt-box con">
+                        <div class="tp-txt">
+                            <p>다다일상 홈카페 1회 체험권 증정</p>
+                        </div>
+                        <div class="md-txt">
+                            <p>04.01-06.26</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>오설록VIP,VVIP 고객님이시라면<br>지금 다다일상 홈카페 체험권을 신청해보세요.</p>
+                        </div>
+                    </div>
+                    <div class="bgc-box"></div>
+                    <div class="img-box"><img src="./img/header/4.jpg" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="txt-box con">
+                        <div class="tp-txt">
+                            <p>차 정기구독 서비스, 다다일상</p>
+                        </div>
+                        <div class="md-txt">
+                            <p>04.01-04.25</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>새로운 취미를 찾고 계신가요?<br>차를 활용한 다양한 레시피로 나만의 홈카페를 즐겨보세요</p>
+                        </div>
+                    </div>
+                    <div class="bgc-box"></div>
+                    <div class="img-box">
+                        <img src="./img/header/5.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+    <div class="content-1">
+
+        <div class="content-1-nav con">
+
+            <div class="title-box">
+                <p>티/티푸드</p>
+            </div>
+
+            <div class="dot-box">
+                <img src="./img/header/a.png" alt="">
+            </div>
+
+
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="img-box"><img src="./img/review best/1.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>시그니처 비스킷 100g</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>12,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/2.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>녹차밀크스프레드 200g</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>8,500원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/3.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>오피스Tea(동백꽃)</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>8,800원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/4.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>그린티웨하스 100g</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>5,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/5.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>찬물녹차 20입(아이스티)</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>8,500원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/6.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>그린티웨하스 100g</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>5,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/7.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>청우롱 10입(피라미드)</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>15,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/8.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>그린티 랑드샤 10입</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>9,600원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/9.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>달빛걷기 20입(피라미드)</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>23,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/10.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>달빛걷기 35g(잎차)</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>15,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>베스트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/11.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>메모리인제주세트 20입</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>30,400원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>할인</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/12.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>시크릿티스토리</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>36,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>할인</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/13.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>마스터블렌드</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>40,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>할인</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/14.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>프리미엄 티 컬렉션</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>20,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>할인</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box"><img src="./img/review best/15.png" alt=""></div>
+                        <div class="txt-box">
+                            <div class="tp-txt">
+                                <p>허브티컬렉션</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>20,000원</p>
+                            </div>
+                            <div class="bt-txt">
+                                <p>할인</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Add Pagination -->
+
+                <div class="swiper-pagination">
+                    <div class=""></div>
+                </div>
+
+            </div>
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+
+        </div>
+        <div class="plus-box con">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="next-box">
+                            <p>이번 주 인기상품 더 보기</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="next-box">
+                            <p>리뷰 인기상품 더 보기</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="next-box">
+                            <p>선물하기 좋은 차 더 보기</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination">
+                    <div class="red-box"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="content-2">
+        <div class="content-2-nav con">
+            <div class="title-box">
+                <p>티웨어샵</p>
+            </div>
+            <div class="dot-box">
+                <img src="./img/teaware/dot.png" alt="">
+            </div>
+
+            <div class="main-box">
+                <div class="card-box card-box1">
+                    <div class="img-box">
+                        <img src="./img/teaware/tea01.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <div class="tp-txt">
+                            <p>있는 그대로, 소로시</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>소로시는 순우리말로 ‘고스란히’의
+                                방언입니다.<br>한글 패턴 시리즈를 시작으로
+                                산수화 그리고<br>조각보 시리즈 등을
+                                만들어가고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box card-box2">
+                    <div class="img-box">
+                        <img src="./img/teaware/tea02.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <div class="tp-txt">
+                            <p>차를 담는 시간, 토림도예</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>부부가 함께 운영하는 도예공방,
+                                토림도예는 다기에 집중하여 작업하고
+                                있습니다. 다기란 그저 차를 담아내는
+                                도구뿐 아니라 우려내고, 직접 입술을 닿으며 사용하는 기물이기에 사용감을
+                                가장 중요시 하며 작업합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box card-box3">
+                    <div class="img-box">
+                        <img src="./img/teaware/tea03.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <div class="tp-txt">
+                            <p>WE BAKE DISHES, 소일베이커</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>요리하는 정성과 음식, 식사하는 즐거움을
+                                도예작가, 디자이너, 요리사가 함께
+                                만들어가는 소일베이커는 다양한 해석을
+                                통해 도자기를 만들고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box card-box4">
+                    <div class="img-box">
+                        <img src="./img/teaware/tea04.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <div class="tp-txt">
+                            <p>동아시아의 보물들이 모이는 곳,
+
+                                서울번드</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>한국의 수도 서울과 부두라는 뜻의 번드가
+                                결합된 ‘서울의 부두’라는 의미로 동아시아
+                                5개국(한국,중국,일본,홍콩,대만)에 숨겨진
+                                리빙브랜드를 선보입니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box card-box5">
+                    <div class="img-box">
+                        <img src="./img/teaware/tea05.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <div class="tp-txt">
+                            <p>품격있는 명품 생활자기, 광주요</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>장인 정신과 예술성 깃든 생활 자기로
+                                한국 식탁의 품격을 높여 온 광주요는
+                                옛 도자의 원료, 형태, 문양을 실용적으로
+                                재해석하여 식생활의 새로운 트렌드를
+                                이끌어 가고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box card-box6">
+                    <div class="img-box">
+                        <img src="./img/teaware/tea06.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <div class="tp-txt">
+                            <p>마음이 채워지는 풍부한 일상, 킨토</p>
+                        </div>
+                        <div class="bt-txt">
+                            <p>친한 사람과 따뜻한 요리, 맛, 휴식 속에서
+                                치유되는 것, 자신의 손에 익숙해지는 것을
+                                찾는 기쁨.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content-3">
+        <div class="content-3-nav con">
+            <div class="title-box">
+                <p>#OSULLOC</p>
+            </div>
+            <div class="dot-box">
+                <img src="./img/header/a.png" alt="">
+            </div>
+            <div class="main-box">
+                <div class="card-box card-box1">
+                    <div class="img-box"><img src="./img/insta/5.jpg" alt=""></div>
+                </div>
+                <div class="card-box card-box2">
+                    <div class="img-box"><img src="./img/insta/6.jpg" alt=""></div>
+                </div>
+                <div class="card-box card-box3">
+                    <div class="img-box"><img src="./img/insta/4.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="next-box">
+                <a href="#" class="txt-box">
+                    <p>오설록 인스타그램</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-nav con row">
+
+            <div class="box1 cell">
+                <div class="img-box"> <img src="./img/header/top-logo.png" alt=""></div>
+                <div class="txt-box">
+                    <div class="tp-txt row">
+                        <p class="cell">(주)오설록</p>
+                        <a class="cell" href="#">사업자 정보 확인</a>
+                    </div>
+                    <div class="md-txt">
+                        <p>
+                            대표이사:서혁제 주소:서울특별시 용산구 한강대로 100, 14층(한강로2가) 사업자등록번호: 390-87-01499
+                            <br>통신판매업신고번호:2019-서울용산-1173호 호스팅제공자: ㈜오설록
+                        </p>
+                    </div>
+                    <div class="bt-txt">
+                        <p>
+                            (주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.
+                            <br>따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box2 cell">
+                <div class="nav-1">
+                    <ul class="row">
+                        <li class="cell be-1">
+                            <p>공지사항</p>
+                        </li>
+                        <li class="cell be-2"><a href="#">[점검] 오설록몰 서비스 일시 중지 안내 _3월 3일(수) 04시~09시</a></li>
+                        <li class="cell be-3"><a href="#">+더 보기</a></li>
+                        <li class="cell be-4"><a href="#"><img src="./img/footer/sns_f_m.png" alt=""></a></li>
+                        <li class="cell be-5"><a href="#"><img src="./img/footer/sns_i_m.png" alt=""></a></li>
+                    </ul>
+
+
+                </div>
+                <div class="nav-2">
+                    <ul class="row">
+                        <li class="cell"><a href="#">회사소개</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">서비스 이용약관</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">개인정보 처리방침</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">영상정보 처리방침</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">뷰티포인트</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">임직원할인</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">사이트맵</a><img src="./img/footer/1.png" alt=""></li>
+                        <li class="cell"><a href="#">전자공고</a></li>
+                    </ul>
+                </div>
+                <div class="nav-3 row">
+                    <div class="txt-box-1 cell">
+                        <div class="top-box">
+                            <div class="tp-txt">
+                                <p>고객상담센터 · 주문/배송문의</p>
+                            </div>
+                            <div class="md-txt">
+                                <p>080-805-5555</p>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <div class="tp-txt">
+                                <p>특판, 대량구매 문의</p>
+                            </div>
+                            <div class="md-txt row">
+                                <div class="md-txt-1 cell">
+                                    <p>help@osulloc.com</p>
+                                </div>
+                                <div class="md-txt-2 cell">
+                                    <p>카카오톡ID : osullocmall</p>
+                                </div>
+                            </div>
+                            <div class="bt-txt">
+                                <p>평일 09:30 - 17:00 (점심 11:30 - 13:00)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt-box-2 cell">
+                        <div class="list-box">
+                            <ul class="row">
+                                <li class="cell"><a href="#"><img src="./img/footer/f1.png" alt="">
+                                        <p>매장안내</p>
+                                    </a></li>
+                                <li class="cell"><a href="#"><img src="./img/footer/f2.png" alt="">
+                                        <p>멤버십혜택</p>
+                                    </a></li>
+                                <li class="cell"><a href="#"><img src="./img/footer/f3.png" alt="">
+                                        <p>FAQ</p>
+                                    </a></li>
+                                <li class="cell"><a href="#"><img src="./img/footer/f4.png" alt="">
+                                        <p>1:1문의</p>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="solid-box">
+                            <div class="tp-txt">
+                                <p>(주)이니시스 구매안전서비스</p>
+                            </div>
+                            <div class="md-txt row">
+                                <img class="cell" src="./img/footer/escrow_43x43_gray.png" alt="">
+                                <p class="cell">고객님의 안전거래를 위해 현금 거래에 대해
+                                    <br>이니페이 에스크로서비스를 이용하실 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
